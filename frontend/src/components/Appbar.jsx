@@ -15,7 +15,7 @@ export const Appbar = () => {
     }
 
     useEffect(() => {
-        axios.get("http://localhost:3000/api/v1/user/me", {
+        axios.get("https://wallet-d2ob.onrender.com/api/v1/user/me", {
             headers: {
                 "Authorization": `Bearer ${localStorage.getItem("token")}`
             }

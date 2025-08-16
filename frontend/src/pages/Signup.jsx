@@ -16,7 +16,7 @@ export function Signup() {
   const navigate = useNavigate()
 
   async function handleClick(){
-    const response = await axios.post("http://localhost:3000/api/v1/user/signup", {
+    const response = await axios.post("https://wallet-d2ob.onrender.com/api/v1/user/signup", {
       email,
       password,
       firstName,
